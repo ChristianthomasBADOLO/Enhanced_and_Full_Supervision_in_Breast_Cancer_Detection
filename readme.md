@@ -9,7 +9,14 @@ The primary objective of this project is to enhance the accuracy and efficiency 
    - The images were preprocessed to ensure uniformity and optimal input quality for the DL models.
 
 2. **Model Selection:**
-   - Three pre-trained CNN models were employed: VGG19, MobileNet, and ResNet50.
+   - Three pre-trained CNN models were employed:
+   - Fully supervised learning models
+      - VGG19
+        ![fsl_vgg19](https://github.com/ChristianthomasBADOLO/Enhanced_and_Full_Supervision_in_Breast_Cancer_Detection/assets/167626485/8d916217-dc1a-4321-bf99-c2339365cf94)
+      - MobileNet
+        ![fsl_mobilenet](https://github.com/ChristianthomasBADOLO/Enhanced_and_Full_Supervision_in_Breast_Cancer_Detection/assets/167626485/3ff28d8b-b48a-43bd-b1bf-90029dd2daf0)
+      - ResNet50.
+        ![fsl_resnet50](https://github.com/ChristianthomasBADOLO/Enhanced_and_Full_Supervision_in_Breast_Cancer_Detection/assets/167626485/b014928c-7546-464e-af14-be92ebfcff5b)
    - These models were selected for their effectiveness in image recognition and classification tasks.
 
 3. **Weakly Supervised Learning:**
@@ -30,6 +37,8 @@ The primary objective of this project is to enhance the accuracy and efficiency 
 
 #### C. Results
 - Fully supervised models outperformed weakly supervised models, demonstrating superior accuracy and robustness in breast cancer detection.
+  ![resnet_train](https://github.com/ChristianthomasBADOLO/Enhanced_and_Full_Supervision_in_Breast_Cancer_Detection/assets/167626485/1353db59-42f6-4017-b285-1134017f8bc9)
+  ![restnet_test](https://github.com/ChristianthomasBADOLO/Enhanced_and_Full_Supervision_in_Breast_Cancer_Detection/assets/167626485/c1c99395-44c2-4bcd-b81c-7977ed5d7ab2)
 - Among tested models, fully supervised ResNet50 showed the highest performance, significantly surpassing VGG19 and MobileNet.
 
 #### D. Conclusion
